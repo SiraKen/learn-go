@@ -1,1 +1,3 @@
-# learn-go
+# Learn Golang
+
+My repository for learning Golang

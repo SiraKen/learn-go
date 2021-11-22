@@ -1,5 +1,10 @@
 package main
 
+func main() {
+	checkScore(85)
+	checkScore(50)
+}
+
 func checkScore(score int) {
 	isPassed := 80 < score
 
@@ -8,9 +13,4 @@ func checkScore(score int) {
 	} else {
 		println("Failed:", isPassed)
 	}
-}
-
-func main() {
-	checkScore(85)
-	checkScore(50)
 }
