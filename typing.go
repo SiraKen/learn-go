@@ -9,10 +9,17 @@ func main() {
 	// total
 	var totalScore int = 0
 
-	// questions
-	ask(1, "hello", &totalScore)
-	ask(2, "bonjour", &totalScore)
-	ask(3, "こんにちは", &totalScore)
+	// question array
+	questions := []string{
+		"hello",
+		"bonjour",
+		"こんにちは",
+	}
+
+	// ask questions
+	for i := 0; i < len(questions); i++ {
+		ask(i + 1, questions[i], &totalScore)
+	}
 
 	// show result
 	fmt.Printf("Result: %d\n", totalScore)
