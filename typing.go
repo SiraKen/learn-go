@@ -36,10 +36,12 @@ func ask(quizNo int, content string, scorePtr *int) {
 
 	// score
 	if input == content {
-		fmt.Println("Correct!")
+		fmt.Printf("Correct!")
 		*scorePtr += 10
 	} else {
-		fmt.Println("Incorrect :(")
+		fmt.Printf("Incorrect :(")
 	}
+
+	fmt.Printf("\n\n")
 	
 }
