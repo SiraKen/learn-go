@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func ex_typing() {
 
 	// total
 	var totalScore int = 0
@@ -18,7 +18,7 @@ func main() {
 
 	// ask questions
 	for i := 0; i < len(questions); i++ {
-		ask(i + 1, questions[i], &totalScore)
+		ask(i+1, questions[i], &totalScore)
 	}
 
 	// show result
@@ -43,5 +43,5 @@ func ask(quizNo int, content string, scorePtr *int) {
 	}
 
 	fmt.Printf("\n\n")
-	
+
 }

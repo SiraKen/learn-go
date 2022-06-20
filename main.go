@@ -12,6 +12,6 @@ func main() {
 	fmt.Println("Hello, Go")
 
 	fmt.Printf("%s\n", "Welcome to Golang") // %s for string
-	fmt.Printf("%d\n", 10) // %d for number
+	fmt.Printf("%d\n", 10)                  // %d for number
 
 }

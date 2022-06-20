@@ -1,6 +1,6 @@
 package main
 
-func main() {
+func ex_check_score() {
 	checkScore(85)
 	checkScore(50)
 }
