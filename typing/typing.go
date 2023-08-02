@@ -1,4 +1,4 @@
-package main
+package typing
 
 import (
 	"fmt"
@@ -18,14 +18,14 @@ func ex_typing() {
 
 	// ask questions
 	for i := 0; i < len(questions); i++ {
-		ask(i+1, questions[i], &totalScore)
+		Ask(i+1, questions[i], &totalScore)
 	}
 
 	// show result
 	fmt.Printf("Result: %d\n", totalScore)
 }
 
-func ask(quizNo int, content string, scorePtr *int) {
+func Ask(quizNo int, content string, scorePtr *int) {
 
 	// user input
 	var input string
