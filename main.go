@@ -55,6 +55,15 @@ func main() {
 		tog.Moretypes3,
 		tog.Moretypes4,
 		tog.Moretypes5,
+		tog.Moretypes6,
+		tog.Moretypes7,
+		tog.Moretypes8,
+		tog.Moretypes9,
+		tog.Moretypes10,
+		tog.Moretypes11,
+		tog.Moretypes12,
+		tog.Moretypes13,
+		tog.Moretypes14,
 	})
 }
 
